@@ -1,0 +1,8 @@
+algoritmo "nome"
+var
+   nome: caractere
+inicio
+      Escreval ("Qual seu nome?")
+      leia (nome)
+      Escreva ("Muito prazer, ", nome)
+fimalgoritmo
