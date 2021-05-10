@@ -1,0 +1,18 @@
+algoritmo "triangulo"
+var
+   L1, L2, L3: real
+   eq, es, tri: logico
+inicio
+      Escreva ("Digite o primeiro lado")
+      Leia (L1)
+      Escreva ("Digite o segundo lado")
+      Leia (L2)
+      Escreva ("Digte o terceiro lado")
+      Leia (L3)
+      tri <-  ((L1 < L2+L3) e (L2 < L1+L3) e (L3 < L2+L1))
+      EQ <- ((L1=L2) e (L2=L3))
+      ES <- ((L1<>L2) e (L2<>L3) e (L1<>L3))
+      Escreva ("Estes números formam um triangulo? ",  tri)
+      Escreva ("O triângulo é equilátero? ", eq)
+      Escreva ("O triângulo é escaleno? ", es)
+fimalgoritmo
