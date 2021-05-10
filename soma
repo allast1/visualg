@@ -1,0 +1,11 @@
+algoritmo "soma"
+var
+   numero1, numero2, soma: inteiro
+inicio
+      Escreval ("Escreva um número: ")
+      leia (numero1)
+      Escreval ("Escreva um número: ")
+      leia (numero2)
+      soma <- numero1+numero2
+      Escreval ("A soma entre esses dois números é ", soma)
+fimalgoritmo
