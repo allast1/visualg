@@ -1,0 +1,12 @@
+algoritmo "emprestimo"
+var
+   valor, juro, vparcela, nparcela: real
+inicio
+      Escreva ("Quantos reais vou pegar emprestado? R$")
+      Leia (valor)
+      juro <- (valor*20)/100
+      Escreva ("Em quantas parcelas quero dividir? ")
+      Leia (nparcela)
+      vparcela <- (juro + valor) / nparcela
+      Escreva ("Terei de pagar ", nparcela, " parcelas de R$", vparcela)
+fimalgoritmo
