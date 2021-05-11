@@ -1,0 +1,15 @@
+algoritmo "NIVERCREUZA"
+// Função : Calcular número de velinhas no bolo de aniversário
+// Autor : allast
+// Data : 11/05/2021
+// Seção de Declarações 
+var
+   ano_atual, ano_nasc, idade: inteiro
+inicio
+   Escreva ("Qual é seu ano de nascimento? ")
+   Leia (ano_nasc)
+   Escreva ("Qual é o ano atual? ")
+   Leia (ano_atual)
+   idade <-  (ano_atual - ano_nasc)
+   Escreva ("Você terá que colocar ", idade, " velas no seu bolo!")
+fimalgoritmo
