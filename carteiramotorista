@@ -1,0 +1,21 @@
+algoritmo "carteira"
+var
+   aa,an,idade:inteiro
+inicio
+      Escreval("==============================")
+      Escreval("  DEPARTAMENTO DE TRÂNSITO ")
+      Escreval("==============================")
+      Escreva("ANO DE NASCIMENTO(xxxx): ")
+      leia(an)
+      Escreva("ANO ATUAL(yyyy): ")
+      leia(aa)
+      idade<-aa-an
+      Escreval("------STATUS------")
+      Escreval("IDADE: ", (idade), " ANOS")
+      Se (idade>=18) entao
+      Escreval("APTO A TIRAR A CARTEIRA")
+      senao
+      Escreval("INAPTO A TIRAR A CARTEIRA")
+      fimse
+      Escreva("-------------------")
+fimalgoritmo
