@@ -1,0 +1,16 @@
+algoritmo "IMC"
+var
+peso,altura,imc: real
+inicio
+      Escreva("Qual seu peso? (KG) ")
+      Leia(peso)
+      Escreva("Qual sua altura? (m)")
+      Leia(altura)
+      imc <- peso/(altura*altura)
+      Escreva("Seu IMC é: ", imc:5:2)
+      Se ((IMC>=18.5) e (IMC<=25)) entao
+         Escreva(" e você está no seu peso ideal!")
+      senao
+         Escreva(" e você não está no peso ideal.")
+      fimse
+fimalgoritmo
