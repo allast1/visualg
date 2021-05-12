@@ -1,0 +1,22 @@
+algoritmo "semnome"
+var
+   nota1,nota2,media:real
+inicio
+      Escreval("=========================")
+      Escreval(" ESCOLA JAVALI CANSADO ")
+      Escreval("=========================")
+      Escreva("Qual a primeira nota? ")
+      Leia(nota1)
+      Escreva("Qual a segunda nota? ")
+      Leia(nota2)
+      media<-(nota1+nota2)/2
+      Escreval("=========================")
+      Escreval(" MEDIA: ",media)
+      Escreva(" STATUS: ")
+      Se (media>=7) entao
+      Escreval("APROVADO")
+      senao
+      Escreval("REPROVADO")
+      fimse
+      Escreva("=========================")
+fimalgoritmo
