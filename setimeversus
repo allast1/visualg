@@ -1,0 +1,26 @@
+algoritmo "timeversus"
+var
+   golsb, golsm, diferenca: inteiro
+inicio
+      Escreval(" BANGU VS MADUREIRA ")
+      Escreval("----------------------")
+      Escreva("QUANTOS GOLS DO BANGU?")
+      Leia(golsb)
+      Escreva("QUANTOS GOLS DO MADUREIRA?")
+      Leia(golsm)
+      diferenca <- golsb-golsm
+      Escreval("DIFERENCA: ", ABS(diferenca))
+      Escreva("STATUS: ")
+      Se (diferenca=3) ou (diferenca=-3) entao
+         Escreval("PARTIDA NORMAL")
+      senao
+           se (diferenca=5) ou (diferenca=-5) entao
+               Escreval("GOLEADA")
+               senao
+                    se (diferenca=0) entao
+                       Escreval("EMPATE")
+                    fimse
+           fimse
+      FimSe
+      Escreva ("----------------------")
+fimalgoritmo
