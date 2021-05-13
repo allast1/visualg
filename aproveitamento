@@ -1,0 +1,36 @@
+algoritmo "notaabcdf"
+var
+   n1,n2,media: real
+inicio
+      Escreval("==============================")
+      Escreval("     ESCOLA JAVALI CANSADO    ")
+      Escreval("==============================")
+      Escreva("Digite a primeira nota: ")
+      Leia(n1)
+      Escreva("Digite a segunda nota: ")
+      Leia(n2)
+      media<- (n1+n2)/2
+      Escreva("APROVEITAMENTO: ")
+      Se  (media<=10) e (media>=9) entao
+          Escreval("A")
+      senao
+           Se (media<9) e (media>=8) entao
+            Escreval("B")
+           senao
+                Se (media<8) e (media>=7) entao
+                   Escreval("C")
+                senao
+                     Se (media<7) e (media>=6) entao
+                        Escreval("D")
+                     senao
+                          Se (media<5) e (media>=4) entao
+                             Escreval("E")
+                          senao
+                               Escreval("F")
+                          FimSe
+                     FimSe
+                FimSe
+           FimSe
+      FimSe
+      Escreva("==============================")
+fimalgoritmo
