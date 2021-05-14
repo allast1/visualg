@@ -1,0 +1,13 @@
+algoritmo "contador10em10"
+var
+      contador, limite: inteiro
+inicio
+      Escreva("Por qual número você quer começar a contagem? ")
+      Leia(contador)
+      Escreva("Até quanto você quer que a contagem vá? ")
+      Leia(limite)
+      Enquanto (contador<=limite) faca
+               Escreval(contador)
+               contador <- contador+10
+      FimEnquanto
+fimalgoritmo
