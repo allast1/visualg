@@ -1,0 +1,29 @@
+algoritmo "melhoraluno"
+var
+   nota,melhorn: inteiro
+   nalunos,c: inteiro
+   nomea,melhora: caractere
+inicio
+      Escreval("----------------")
+      Escreval("  ESCOLA PEPE   ")
+      Escreval("----------------")
+      Escreva("Quantos alunos há na turma? ")
+      Leia(nalunos)
+      c <-  1
+      Enquanto (c<=nalunos)  faca
+               Escreval("-------------------")
+               Escreval("ALUNO ", c)
+               Escreva("NOME DO ALUNO  : ")
+               Leia(nomea)
+               Escreva("NOTA DE  ", nomea, " : ")
+               Leia(nota)
+               c <-  c+1
+               Se (nota>melhorn) entao
+                  melhorn <- nota
+                  melhora <- nomea
+               FimSe
+      FimEnquanto
+      Escreval("O melhor aluno(a) é ", melhora, " com a nota de ", melhorn)
+      Escreva("-------------------")
+
+fimalgoritmo
