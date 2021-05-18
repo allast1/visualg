@@ -1,0 +1,29 @@
+algoritmo "semnome"
+var
+   n, c,soma,n5,nulos,somap: inteiro
+   media: real
+inicio
+soma<-0
+n5<-0
+nulos<-0
+Para c <- 1 ate 5 faca
+     Escreva("Digite o ", c, "o valor: ")
+     Leia(n)
+     soma <- soma + n
+     Se (N%5=0) entao
+        n5 <- n5 + 1
+     FimSe
+     Se (n=0) entao
+        nulos<-nulos+1
+     FimSe
+     Se (N%2=0) entao
+        somap <- somap + n
+     FimSe
+FimPara
+media<- soma/5
+Escreval("A soma dos números é ", soma)
+Escreval("A média entre os valores é ", media)
+Escreval("O número de numeros nulos é ", nulos)
+Escreval("O número de números divisiveis por 5 e ", n5)
+Escreval("A soma de números pares é ", somap)
+fimalgoritmo
