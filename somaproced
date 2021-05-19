@@ -1,0 +1,16 @@
+algoritmo "somaproced"
+var
+   x,y: inteiro
+inicio
+Procedimento soma(a,b:inteiro)
+Inicio
+      Escreval("Recebi o valor ", a)
+      Escreval("Recebi o valor ", b)
+      Escreval("A soma entre os dois é ", a+b)
+FimProcedimento
+      Escreva("Qual o valor de x? ")
+      Leia(x)
+      Escreva("Qual o valor de y? ")
+      Leia()
+      soma(X,Y)
+fimalgoritmo
