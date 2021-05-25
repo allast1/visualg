@@ -1,0 +1,27 @@
+algoritmo "valpares"
+var
+   val:vetor[1..6] de inteiro
+   i,totpar,totimp: inteiro
+inicio
+Para i<-1 ate 6 faca
+     Escreva("Digite um número: ")
+     Leia(val[i])
+     Se (val[i]%2=0) entao
+        Escreval("Este número é par.")
+        totpar <- totpar + 1
+        senao
+             Escreval("Este número é ímpar.")
+             totimp <- totimp + 1
+        FimSe
+FimPara
+Escreval("Foram digitados ", totpar, " números pares.")
+Escreval("Foram digitados ", totimp, " números ímpares.")
+
+Para i<-1 ate 6 faca
+     Se (val[i]%2=0) entao
+        Escreval("Valor par na posição ", i)
+        senao
+             Escreval("Valor ímpar na posição", i)
+     FimSe
+FimPara
+fimalgoritmo
